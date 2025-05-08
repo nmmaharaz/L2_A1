@@ -1,4 +1,4 @@
-# 🔑 What is the use of the keyof keyword in TypeScript? Provide an example.
+# 🔑 What is the use of the keyof keyword in TypeScript? Provide an example. 
 ## 📘 Introduction
 The keyof keyword in TypeScript is used to extract the keys of a type as a union of string literal types.
 This allows for type-safe access to object properties and is especially useful when working with generics or when you need to ensure that a given key actually exists on a specific type.
@@ -33,7 +33,7 @@ const studentName = getProperty(student, "student_name"); // string
 const studentAge = getProperty(student, "roll");   // number
 const studentCity = getProperty(student, "course"); // string
 
-// ❌ This line will cause a compile-time error:
+// ❌ This line will cause a compile-time error: 
 // const invalidKey = getProperty(student, "invalid"); 
 // Error: Argument of type '"invalid"' is not assignable to parameter of type 'keyof Student'
 ```

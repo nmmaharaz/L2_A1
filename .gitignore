@@ -4,3 +4,4 @@ package.json
 tsconfig.json
 src/*
 !src/Solutions.ts
+.gitignore
