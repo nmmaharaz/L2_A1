@@ -46,11 +46,11 @@ class Car {
         private year: number,
         private model: string
     ){}
-    getInfo():string {
-        return(`Make: ${this.make}, Year: ${this.year}`)
+    getInfo():void {
+        console.log(`Make: ${this.make}, Year: ${this.year}`)
     }
-    getModel():string{
-        return(`Model: ${this.model}`)
+    getModel():void{
+        console.log(`Model: ${this.model}`)
     }
 }
 
